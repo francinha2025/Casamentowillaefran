@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Casamento de Franciara & Willame</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Casamento de Franciara & Willame</h1>
+  <p>14 de Novembro de 2025</p>
+</header>
+
+<section>
+  <h2>Local da Cerimônia</h2>
+  <p>Sítio Cardoso - Santa Inês, Maranhão</p>
+  <h2>Recepção</h2>
+  <p>No mesmo local após a cerimônia</p>
+</section>
+
+<section>
+  <h2>Confirme sua Presença</h2>
+  <form class="rsvp-form" action="https://formsubmit.co/franciaraeabreucoelho@gmail.com" method="POST">
+    <input type="text" name="nome" placeholder="Seu nome completo" required><br>
+    <select name="confirmacao" required>
+      <option value="">Você irá ao casamento?</option>
+      <option value="Sim">Sim, com alegria!</option>
+      <option value="Não">Infelizmente não poderei ir</option>
+    </select><br>
+    <input type="number" name="acompanhantes" placeholder="Número de acompanhantes" min="0"><br>
+    <button type="submit">Confirmar Presença</button>
+  </form>
+</section>
+
+<section>
+  <h2>Lista de Presentes</h2>
+  <p>Acesse nossa lista no site da <a href="https://www.americanas.com.br" target="_blank">Americanas</a></p>
+  <p><strong>Pix:</strong> franciaraeabreucoelho@gmail.com</p>
+</section>
+
+<section>
+  <h2>Contagem Regressiva</h2>
+  <div class="countdown" id="contador"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

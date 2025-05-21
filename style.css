@@ -1,0 +1,36 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #fff5f8;
+  color: #333;
+  text-align: center;
+}
+header {
+  background-color: #c71585;
+  color: white;
+  padding: 30px 10px;
+}
+section {
+  padding: 30px 20px;
+}
+h2 {
+  color: #c71585;
+}
+.rsvp-form input, .rsvp-form select, .rsvp-form button {
+  width: 90%;
+  max-width: 400px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+}
+.rsvp-form button {
+  background-color: #c71585;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+a {
+  color: #c71585;
+  text-decoration: none;
+}
